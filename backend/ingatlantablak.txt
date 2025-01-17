@@ -1,0 +1,19 @@
+INGATLANOK(ID,ar,telepules,szobaszam,allapot,alapterulet)
+
+INGATLANOK:
+	1.ID(autoincrement) //int(11)
+	2.ar(int(10),NOT NULL)
+	3.telepules(varchar(255),NOT NULL)
+	4. szobaszam(varchar(5),NOT NULL)
+	5.leiras(varchar(255))
+	6.alapterulet(int(7))
+
+ORSZAG(NEMZETKOZIAZONOSITO)
+
+	1.nemzetkoziazonosito(char(3),NOT NULL,UNIQE))
+	2.orszagneve(varchar(255),NOT NULL)
+
+KATEGORIA(ID,kategoriak)
+
+	1. ID(autoincement)
+	2.kategoriak(varchar(100),NOT NULL)
