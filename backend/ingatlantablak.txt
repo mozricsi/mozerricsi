@@ -17,3 +17,4 @@ KATEGORIA(ID,kategoriak)
 
 	1. ID(autoincement)
 	2.kategoriak(varchar(100),NOT NULL)
+dsada
